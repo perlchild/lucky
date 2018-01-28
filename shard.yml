@@ -29,7 +29,7 @@ development_dependencies:
     github: veelenga/ameba
 
 scripts:
-  postinstall: ./src/precompiled_tasks/build
+  postinstall: make bin
 
 crystal: 0.24.1
 
