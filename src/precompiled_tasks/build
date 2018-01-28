@@ -1,8 +1,0 @@
-#!/bin/sh
-
-# Exit if any subcommand fails
-set -e
-
-echo $PWD
-mkdir -p ./bin/lucky
-crystal build src/precompiled_tasks/watch.cr -o ./bin/lucky/watch
